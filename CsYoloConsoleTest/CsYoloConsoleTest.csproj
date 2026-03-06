@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\pexels-ezz7-979503.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YoloDotNet" Version="4.2.0" />
+    <PackageReference Include="YoloDotNet.ExecutionProvider.Cpu" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Model\yolov8n.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Image\pexels-ezz7-979503.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
