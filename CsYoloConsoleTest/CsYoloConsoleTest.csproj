@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="Image\pexels-ezz7-979503.jpg" />
+    <None Remove="Model\yolo26n-seg.onnx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Model\yolo26n-seg.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Model\yolov8n.onnx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
