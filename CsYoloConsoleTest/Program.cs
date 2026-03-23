@@ -6,8 +6,13 @@
 //    @"Image\pexels-ezz7-979503.jpg");
 
 // Segmentation
-SegmentationTest.Run(
-    @"Model\yolo26n-seg.onnx",
+//SegmentationTest.Run(
+//    @"Model\yolo26n-seg.onnx",
+//    @"Image\pexels-ezz7-979503.jpg");
+
+// Classify
+ClassifyTest.Run(
+    @"Model\yolo26n-cls.onnx",
     @"Image\pexels-ezz7-979503.jpg");
 
 Console.ReadLine();
