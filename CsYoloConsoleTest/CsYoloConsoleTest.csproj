@@ -10,7 +10,9 @@
   <ItemGroup>
     <None Remove="Image\pexels-ezz7-979503.jpg" />
     <None Remove="Image\pexels-olly-3799235.jpg" />
+    <None Remove="Image\pexels-photo-1085718.jpeg" />
     <None Remove="Model\yolo26n-cls.onnx" />
+    <None Remove="Model\yolo26n-obb.onnx" />
     <None Remove="Model\yolo26n-pose.onnx" />
     <None Remove="Model\yolo26n-seg.onnx" />
   </ItemGroup>
@@ -24,7 +26,13 @@
     <Content Include="Image\pexels-olly-3799235.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Image\pexels-photo-1085718.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Model\yolo26n-cls.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Model\yolo26n-obb.onnx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Model\yolo26n-pose.onnx">

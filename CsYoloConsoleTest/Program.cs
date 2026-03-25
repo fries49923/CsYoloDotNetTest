@@ -16,8 +16,13 @@
 //    @"Image\pexels-ezz7-979503.jpg");
 
 // Pose
-PoseTest.Run(
-    @"Model\yolo26n-pose.onnx",
-    @"Image\pexels-olly-3799235.jpg");
+//PoseTest.Run(
+//    @"Model\yolo26n-pose.onnx",
+//    @"Image\pexels-olly-3799235.jpg");
+
+// OBB
+ObbTest.Run(
+    @"Model\yolo26n-obb.onnx",
+    @"Image\pexels-photo-1085718.jpeg");
 
 Console.ReadLine();
